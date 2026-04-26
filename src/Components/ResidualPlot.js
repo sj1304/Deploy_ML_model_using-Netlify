@@ -1,6 +1,8 @@
 import React from "react";
 
-import { ScatterChart, Scatter, XAxis, YAxis, Tooltip } from 'recharts';
+import { ScatterChart, Scatter, XAxis, YAxis, Tooltip, ResponsiveContainer,
+  CartesianGrid,
+  ReferenceLine } from 'recharts';
 import "../css/Comparison.css";
 
 function ResidualPlot({ lr, rf }) {
